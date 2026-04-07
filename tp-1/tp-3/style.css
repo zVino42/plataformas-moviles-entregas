@@ -1,1 +1,52 @@
+/* COLOR FUERTE PARA PROBAR (podés sacarlo después) */
+body {
+    background-color: red;
+}
 
+/* Centrar el título */
+h1 {
+    text-align: center;
+}
+
+/* Fuente serif para párrafos */
+p {
+    font-family: serif;
+}
+
+/* Fondo para el primer párrafo */
+#primer-parrafo {
+    background-color: #CEE;
+}
+
+/* Color para <em> dentro del primer párrafo */
+#primer-parrafo em {
+    color: #933;
+}
+
+/* Outline para links */
+a {
+    outline: 1px solid #333;
+}
+
+/* Opacidad 100% */
+p.fuente {
+    opacity: 100%;
+}
+
+/* Párrafos sin id */
+p:not([id]) {
+    background-color: rgba(190, 120, 240, 0.6);
+}
+
+/* BONUS */
+
+/* Color negro */
+p.fuente {
+    color: #000;
+}
+
+/* Clase complicado */
+.complicado {
+    font-weight: bold;
+    color: #C62;
+}
