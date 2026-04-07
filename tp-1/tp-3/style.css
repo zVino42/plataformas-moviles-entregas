@@ -1,0 +1,47 @@
+/* Centrar el título h1 */
+h1 {
+    text-align: center;
+}
+
+/* Fuente serif para todos los párrafos */
+p {
+    font-family: serif;
+}
+
+/* Fondo para el párrafo con id primer-parrafo */
+#primer-parrafo {
+    background-color: #CEE;
+}
+
+/* Color para <em> dentro del primer párrafo */
+#primer-parrafo em {
+    color: #933;
+}
+
+/* Outline para todos los links */
+a {
+    outline: 1px solid #333;
+}
+
+/* Opacidad 100% para p con clase fuente */
+p.fuente {
+    opacity: 100%;
+}
+
+/* Fondo para párrafos SIN id */
+p:not([id]) {
+    background-color: rgba(190, 120, 240, 0.6);
+}
+
+/* BONUS */
+
+/* Color negro para p.fuente */
+p.fuente {
+    color: #000;
+}
+
+/* Clase complicado */
+.complicado {
+    font-weight: bold;
+    color: #C62;
+}
