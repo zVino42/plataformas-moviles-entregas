@@ -1,1 +1,86 @@
+/* 1. Fondo y texto */
+body {
+    background-color: #222;
+    color: #ee6;
+}
 
+/* 2. Títulos */
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #eee;
+    text-transform: uppercase; /* BONUS */
+}
+
+/* Hover en título principal  */
+h1:hover {
+    color: #f33;
+}
+
+/* 3. Párrafos */
+p {
+    font-family: sans-serif;
+}
+
+/* Primera línea del primer párrafo (BONUS) */
+p:first-of-type::first-line {
+    color: #efe;
+}
+
+/* 4. Strong */
+strong {
+    border-bottom: 1px solid white;
+}
+
+/* 5. The Force */
+.the-force {
+    background-color: #444;
+    font-weight: bold;
+}
+
+/* Lados */
+.light-side {
+    color: #66f;
+}
+
+.dark-side {
+    color: #f33;
+}
+
+/* 6. Lista OG */
+#og-trilogy {
+    list-style-type: circle;
+}
+
+/* 7. Segundo listado */
+.movies-list:nth-of-type(2) {
+    padding-left: 30px;
+}
+
+/* 8. Último elemento del tercer listado */
+.movies-list:nth-of-type(3) li:last-child {
+    margin-top: 15px;
+}
+
+/* LINKS */
+
+/* Visitados (BONUS) */
+a:visited {
+    color: gray;
+}
+
+/* Links sin href (BONUS) */
+a:not([href]) {
+    font-style: italic;
+}
+
+/* Alternar colores en listas (BONUS) */
+.movies-list li:nth-child(odd) {
+    background-color: #111;
+}
+
+.movies-list li:nth-child(even) {
+    background-color: #333;
+}
