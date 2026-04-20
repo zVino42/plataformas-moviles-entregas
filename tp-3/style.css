@@ -17,6 +17,10 @@ h1 {
 	text-align: center;
 }
 
+a {
+
+	outline: 1px solid #333;
+}
 p {
 	font-family: sans-serif;
 	text-align: center;
@@ -54,6 +58,7 @@ body p.fuente.parrafo {
 }
 
 p.novelas.parrafos {
+	
 	text-decoration: none;
 	font-family: serif;
 }
