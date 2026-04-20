@@ -1,0 +1,69 @@
+body {
+	font-size: 18px;
+	background-color: #ffe;
+	color: #210;
+	text-align: center;
+}
+
+#contenedor {
+	max-width: 40ch;
+	margin: 2rem auto;
+	padding: 1rem;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+p {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#primer-parrafo {
+	font-family: serif;
+	font-size: 1.3rem;
+	background-color: #cee;
+}
+
+p.importante em {
+	font-weight: bold;
+	color: #933;
+}
+
+p.novelas a {
+	outline: 1px solid #333;
+	text-decoration: none;
+	font-family: serif;
+}
+
+p.novelas a:hover {
+	text-decoration: underline;
+	background-color: #ccd;
+	font-family: serif;
+}
+
+body p.fuente.parrafo {
+	font-family: serif;
+	color: #000 !important;
+	font-size: 0.9rem;
+	opacity: 100%;
+	text-align: center;
+}
+
+p.novelas.parrafos {
+	outline: 1px solid #333;
+	text-decoration: none;
+	font-family: serif;
+}
+
+p:not([id]) {
+	background-color: rgba(190, 120, 240, 0.6);
+	font-family: serif;
+}
+
+.complicado {
+	font-weight: bold;
+}
