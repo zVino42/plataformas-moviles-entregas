@@ -54,7 +54,6 @@ body p.fuente.parrafo {
 }
 
 p.novelas.parrafos {
-	outline: 1px solid #333;
 	text-decoration: none;
 	font-family: serif;
 }
