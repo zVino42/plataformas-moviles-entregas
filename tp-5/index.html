@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Versiones con Git</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+  <div class="container">
+    <a class="navbar-brand" href="#">Git Info</a>
+  </div>
+</nav>
+
+
+
+<div class="container">
+
+   
+    <h1 class="text-center mb-4">Control de Versiones con Git</h1>
+
+    
+    <div id="carouselExample" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="repo.png" class="d-block w-30">
+        </div>
+
+        <div class="carousel-item">
+          <img src="codigo.jfif" class="d-block w-30">
+        </div>
+
+        <div class="carousel-item">
+          <img src="images (4).jfif" class="d-block w-30">
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+
+    
+    <p class="fs-4">
+        <strong>Git</strong> es un sistema de control de versiones distribuido, ampliamente utilizado en el desarrollo de
+        software moderno. Fue creado para gestionar proyectos de forma rápida, eficiente y colaborativa.
+    </p>
+
+
+
+
+    
+    <h2>Comandos más populares de Git</h2>
+    <ol class="list-group list-group-numbered shadow mb-4">
+        <li class="list-group-item"><code>git init</code> - Inicializa un repositorio.</li>
+        <li class="list-group-item"><code>git clone</code> - Clona un repositorio.</li>
+        <li class="list-group-item"><code>git status</code> - Muestra el estado.</li>
+        <li class="list-group-item"><code>git add</code> - Agrega archivos.</li>
+        <li class="list-group-item"><code>git commit</code> - Guarda cambios.</li>
+        <li class="list-group-item"><code>git push</code> - Sube cambios.</li>
+        <li class="list-group-item"><code>git pull</code> - Trae cambios.</li>
+        <li class="list-group-item"><code>git checkout</code> - Cambia de rama.</li>
+    </ol>
+
+    
+
+    
+    <h2>Comparación con otros sistemas</h2>
+    <table class="table table-dark table-striped mb-4">
+        <thead>
+            <tr>
+                <th>Sistema</th>
+                <th>Tipo</th>
+                <th>Popularidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Git</td>
+                <td>Distribuido</td>
+                <td>Muy alta</td>
+            </tr>
+            <tr>
+                <td>SVN</td>
+                <td>Centralizado</td>
+                <td>Media</td>
+            </tr>
+            <tr>
+                <td>Mercurial</td>
+                <td>Distribuido</td>
+                <td>Baja</td>
+            </tr>
+            <tr>
+                <td>Perforce</td>
+                <td>Centralizado</td>
+                <td>Especializado</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+   
+
+    <h2>¿Ya usaste Git?</h2>
+    <p>Completá el siguiente formulario:</p>
+
+
+
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Tu nombre:</label>
+            <input type="text" class="form-control">
+        </div>
+
+
+
+
+        <div class="mb-3">
+            <label class="form-label">¿Qué usás más?</label>
+            <select class="form-select">
+                <option>Git</option>
+                <option>Git + GitHub</option>
+                <option>Otro</option>
+                <option>Ninguno</option>
+            </select>
+        </div>
+
+
+
+
+
+        
+        <button type="button" class="btn btn-primary" onclick="mostrarAlerta()">Mostrar alerta</button>
+        <button type="submit" class="btn btn-success">Enviar</button>
+        
+
+
+        
+        <div id="alerta" class="alert alert-success mt-3 d-none">
+            ¡Formulario enviado correctamente!
+        </div>
+    </form>
+
+
+
+    
+    <h3 class="mt-4">Más información</h3>
+
+    <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#infoExtra">
+      Mostrar / Ocultar info
+    </button>
+
+
+
+    <div id="infoExtra" class="collapse mt-3">
+      <div class="card card-body">
+        Git permite trabajar en equipo de manera eficiente, manteniendo un historial de cambios y facilitando la colaboración entre desarrolladores.
+      </div>
+    </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+function mostrarAlerta() {
+  document.getElementById("alerta").classList.remove("d-none");
+}
+</script>
+
+
+
+</body>
+</html>
